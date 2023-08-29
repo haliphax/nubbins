@@ -1,8 +1,8 @@
-a:link {
+a[href] {
 	color: var(--color-alt);
 }
 
-a:link:hover {
+a[href]:hover {
 	color: var(--color-alt-light);
 }
 
