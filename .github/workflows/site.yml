@@ -6,6 +6,10 @@ on:
 
   workflow_dispatch:
 
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.branch }}
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -14,11 +18,11 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: lts/hydrogen
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Publish site
         run: |
