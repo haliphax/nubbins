@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"clean-css-cli": "^5.6.2",
+		"gitmoji-cli": "^8.4.0",
+		"prettier": "^3.0.2"
+	},
+	"scripts": {
+		"build": "npx cleancss -o dist/nubbins.min.css src/index.css"
+	}
+}

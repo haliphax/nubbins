@@ -1,0 +1,14 @@
+:root {
+	--color-alt-dark: #077;
+	--color-alt-light: #0ff;
+	--color-alt: #0aa;
+	--color-bg-dark: #000;
+	--color-bg-light: #555;
+	--color-bg: #222;
+	--color-fg-dark: #777;
+	--color-fg-light: #fff;
+	--color-fg: #aaa;
+	--color-pri-dark: #707;
+	--color-pri-light: #f0f;
+	--color-pri: #a0a;
+}

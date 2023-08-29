@@ -1,0 +1,63 @@
+button,
+.button {
+	background-color: var(--color-alt);
+	border: 0.05rem solid var(--color-alt-dark);
+	color: var(--color-bg-dark);
+	cursor: pointer;
+	padding: var(--space-xs) var(--space-l);
+}
+
+button:disabled {
+	background-color: var(--color-alt-dark);
+	border-color: var(--color-bg-light);
+	color: var(--color-bg);
+	cursor: not-allowed;
+}
+
+:is(button:not(:disabled), .button):hover {
+	background-color: var(--color-alt-light);
+	border-color: var(--color-alt);
+}
+
+button,
+.button,
+input,
+select,
+textarea {
+	border-radius: var(--radius-inner);
+	font-size: 1em;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+fieldset,
+legend {
+	background-color: var(--color-bg-dark);
+	border-radius: var(--radius-outer);
+}
+
+fieldset {
+	border: 0.05rem solid var(--color-fg-dark);
+	padding: var(--space-s) var(--space-l);
+}
+
+input:is([type="checkbox"], [type="radio"]) {
+	height: 0.65em;
+	width: 0.65em;
+	vertical-align: baseline;
+}
+
+input:not([type="checkbox"], [type="radio"]) {
+	padding-inline: var(--space-xxs);
+}
+
+label {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+legend {
+	border: 0.25rem double var(--color-pri);
+	font-family: var(--font-alt);
+	padding: var(--space-xxs) var(--space-l);
+}

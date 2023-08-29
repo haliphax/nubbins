@@ -1,0 +1,22 @@
+details {
+	background-color: var(--color-bg-dark);
+	border: 0.05rem solid var(--color-fg-dark);
+	border-radius: var(--radius-outer);
+	padding-block: var(--space-s);
+	padding-inline: var(--space-l);
+}
+
+summary {
+	cursor: pointer;
+	padding-bottom: 0;
+}
+
+summary:hover {
+	color: var(--color-fg-light);
+}
+
+details[open] summary {
+	border-bottom: 0.05rem dotted var(--color-pri-dark);
+	margin-bottom: var(--space-s);
+	padding-bottom: var(--space-s);
+}

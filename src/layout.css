@@ -1,0 +1,18 @@
+.c {
+	margin: 0 auto;
+	max-width: 1280px;
+	padding-block: clamp(1vw, var(--space-s), var(--space-xxl));
+	padding-inline: clamp(3vw, var(--space-l), var(--space-xxl));
+}
+
+.db {
+	display: block;
+}
+
+.di {
+	display: inline;
+}
+
+.dib {
+	display: inline-block;
+}

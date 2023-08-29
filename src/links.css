@@ -1,0 +1,13 @@
+a:link {
+    color: var(--color-alt);
+}
+
+a:link:hover {
+    color: var(--color-alt-light);
+}
+
+a:link:not(.noext)[href*="://"]::after {
+    content: '\2197\fe0f';
+    display: inline-block;
+    margin-left: 0.1em;
+}
