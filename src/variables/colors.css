@@ -1,14 +1,31 @@
 :root {
-	--color-alt-dark: #077;
-	--color-alt-light: #0ff;
+	--color-alt-1: #077;
+	--color-alt-2: #0ff;
 	--color-alt: #0aa;
-	--color-bg-dark: #000;
-	--color-bg-light: #555;
+	--color-bg-1: #000;
+	--color-bg-2: #555;
 	--color-bg: #222;
-	--color-fg-dark: #777;
-	--color-fg-light: #fff;
+	--color-fg-1: #777;
+	--color-fg-2: #fff;
 	--color-fg: #aaa;
-	--color-pri-dark: #707;
-	--color-pri-light: #f0f;
+	--color-pri-1: #707;
+	--color-pri-2: #f0f;
 	--color-pri: #a0a;
+}
+
+@media screen and (prefers-color-scheme: light) {
+	:root {
+		--color-alt-1: #077;
+		--color-alt-2: #0ff;
+		--color-alt: #0aa;
+		--color-bg-1: #fff;
+		--color-bg-2: #333;
+		--color-bg: #ddd;
+		--color-fg-1: #777;
+		--color-fg-2: #000;
+		--color-fg: #555;
+		--color-pri-1: #707;
+		--color-pri-2: #f0f;
+		--color-pri: #a0a;
+	}
 }

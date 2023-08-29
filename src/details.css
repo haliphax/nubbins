@@ -1,6 +1,6 @@
 details {
-	background-color: var(--color-bg-dark);
-	border: 0.05rem solid var(--color-fg-dark);
+	background-color: var(--color-bg-1);
+	border: 0.05rem solid var(--color-fg-1);
 	border-radius: var(--radius-outer);
 	padding-block: var(--space-s);
 	padding-inline: var(--space-l);
@@ -12,11 +12,11 @@ summary {
 }
 
 summary:hover {
-	color: var(--color-fg-light);
+	color: var(--color-fg-2);
 }
 
 details[open] summary {
-	border-bottom: 0.05rem dotted var(--color-pri-dark);
+	border-bottom: 0.05rem dotted var(--color-pri-1);
 	margin-bottom: var(--space-s);
 	padding-bottom: var(--space-s);
 }

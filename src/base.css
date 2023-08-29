@@ -39,8 +39,8 @@ ul {
 }
 
 blockquote {
-	border-left: 0.5rem dotted var(--color-bg-light);
-	color: var(--color-fg-dark);
+	border-left: 0.5rem dotted var(--color-bg-2);
+	color: var(--color-fg-1);
 	margin-left: var(--space-m);
 	padding-left: var(--space-m);
 }

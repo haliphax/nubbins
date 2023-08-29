@@ -3,7 +3,7 @@ a[href] {
 }
 
 a[href]:hover {
-	color: var(--color-alt-light);
+	color: var(--color-alt-2);
 }
 
 a:link:not(.noext)[href*="://"]::after
