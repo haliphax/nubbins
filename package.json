@@ -1,10 +1,32 @@
 {
+	"author": "haliphax <https://github.com/haliphax>",
+	"bugs": {
+		"url": "https://github.com/haliphax/nubbins/issues"
+	},
+	"description": "Yet another CSS micro-framework",
 	"devDependencies": {
 		"clean-css-cli": "^5.6.2",
 		"gitmoji-cli": "^8.4.0",
-		"prettier": "^3.0.2"
+		"prettier": "^3.0.2",
+		"semantic-release": "^21.1.1",
+		"semantic-release-gitmoji": "^1.6.4"
+	},
+	"homepage": "https://haliphax.github.io/nubbins",
+	"keywords": [
+		"css",
+		"framework",
+		"microframework",
+		"micro-framework"
+	],
+	"license": "MIT",
+	"name": "nubbins",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/haliphax/nubbins"
 	},
 	"scripts": {
 		"build": "npx cleancss -o dist/nubbins.min.css src/index.css"
-	}
+	},
+	"version": "0.0.1"
 }
