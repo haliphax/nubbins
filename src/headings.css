@@ -1,51 +1,78 @@
-h1, h2, h3, h4, h5, h6, h7, h8, h9 {
-    border-bottom-width: 0.05em;
-    font-family: var(--font-alt);
-    font-weight: 400;
-    line-height: 1.05;
-    margin-bottom: var(--space-m);
-    margin-left: -1%;
-    padding-bottom: var(--space-xxs);
-    padding-left: 1%;
-    width: 101%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9 {
+	border-bottom-width: 0.05em;
+	font-family: var(--font-alt);
+	font-weight: 400;
+	line-height: 1.05;
+	margin-bottom: var(--space-m);
+	margin-left: -1%;
+	padding-bottom: var(--space-xxs);
+	padding-left: 1%;
+	width: 101%;
 }
 
-h1, h2, h3 {
-    border-bottom-style: solid;
+h1,
+h2,
+h3 {
+	border-bottom-style: solid;
 }
 
 h1 {
-    border-color: var(--color-pri-light);
-    color: var(--color-fg-light);
-    font-size: clamp(3rem, 7vw, 5rem);
+	border-color: var(--color-pri-light);
+	color: var(--color-fg-light);
+	font-size: clamp(3rem, 7vw, 5rem);
 }
 
-h2, h3, h4, h5, h6, h7, h8, h9 {
-    margin-top: var(--space-l);
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9 {
+	margin-top: var(--space-l);
 }
 
 h2 {
-    border-color: var(--color-pri);
-    font-size: clamp(2.5rem, 6vw, 4rem);
+	border-color: var(--color-pri);
+	font-size: clamp(2.5rem, 6vw, 4rem);
 }
 
-h3, h4 {
-    border-color: var(--color-pri-dark);
+h3,
+h4 {
+	border-color: var(--color-pri-dark);
 }
 
 h3 {
-    font-size: clamp(2rem, 5vw, 3rem);
+	font-size: clamp(2rem, 5vw, 3rem);
 }
 
-h4, h5, h6, h7, h8, h9 {
-    border-bottom-style: dotted;
+h4,
+h5,
+h6,
+h7,
+h8,
+h9 {
+	border-bottom-style: dotted;
 }
 
 h4 {
-    font-size: clamp(1.5rem, 4vw, 2rem);
+	font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
-h5, h6, h7, h8, h9 {
-    border-color: var(--color-fg-dark);
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
+h5,
+h6,
+h7,
+h8,
+h9 {
+	border-color: var(--color-fg-dark);
+	font-size: clamp(1.25rem, 3vw, 1.75rem);
 }

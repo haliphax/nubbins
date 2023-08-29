@@ -3,6 +3,6 @@
 @import "./variables/spacing.css";
 
 :root {
-    --radius-inner: 0.25rem;
-    --radius-outer: 0.5rem;
+	--radius-inner: 0.25rem;
+	--radius-outer: 0.5rem;
 }

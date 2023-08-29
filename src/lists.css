@@ -1,7 +1,8 @@
-ol, ul {
-    padding-left: var(--space-xxl);
+ol,
+ul {
+	padding-left: var(--space-xxl);
 }
 
 li:not(:last-child) {
-    margin-bottom: var(--space-xxs);
+	margin-bottom: var(--space-xxs);
 }
