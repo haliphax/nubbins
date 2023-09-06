@@ -28,3 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release -r git@github.com:haliphax/nubbins.git
+
+  package:
+    needs: release
+    uses: ./.github/workflows/package.yml
