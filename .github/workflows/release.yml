@@ -6,6 +6,11 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      packages: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,5 +26,5 @@ jobs:
 
       - name: semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release -r git@github.com:haliphax/nubbins.git
