@@ -28,9 +28,12 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Build package
-        run: npm run build
+        run: |
+          npm run build
+          mkdir package
+          cp -r dist LICENSE.md package.json README.md src package/
 
       - name: Publish package
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm publish
+        run: cd package && npm publish
