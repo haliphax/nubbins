@@ -27,7 +27,6 @@
 	],
 	"license": "MIT",
 	"name": "@haliphax/nubbins",
-	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/haliphax/nubbins"
