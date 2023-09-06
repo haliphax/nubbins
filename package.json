@@ -34,5 +34,5 @@
 	"scripts": {
 		"build": "npx cleancss -o dist/nubbins.min.css src/index.css"
 	},
-	"version": "0.0.4"
+	"version": "0.0.5"
 }
