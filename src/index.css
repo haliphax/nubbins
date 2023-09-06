@@ -1,5 +1,6 @@
 /*! My attempt at a tiny CSS framework */
 
+@import "./reset.css";
 @import "./variables.css";
 @import "./base.css";
 
