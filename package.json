@@ -26,7 +26,7 @@
 		"micro-framework"
 	],
 	"license": "MIT",
-	"name": "nubbins",
+	"name": "@haliphax/nubbins",
 	"private": true,
 	"repository": {
 		"type": "git",
