@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   commitlint:
-    if: ${{ contains(github.event_name, 'pull_request') }}
+    if: contains(github.event_name, 'pull_request')
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
