@@ -28,7 +28,7 @@ jobs:
       - name: Build package
         run: |
           npm run build
-          cp LICENSE.md package*.json README.md dist/
+          cp LICENSE.md package.json README.md dist/
 
       - name: Publish package
         env:
