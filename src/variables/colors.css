@@ -15,15 +15,15 @@
 
 @media screen and (prefers-color-scheme: light) {
 	:root {
-		--color-alt-1: #077;
+		--color-alt-1: #0aa;
 		--color-alt-2: #0ff;
-		--color-alt: #0aa;
-		--color-bg-1: #fff;
+		--color-alt: #077;
+		--color-bg-1: #ddd;
 		--color-bg-2: #333;
-		--color-bg: #ddd;
-		--color-fg-1: #777;
+		--color-bg: #aaa;
+		--color-fg-1: #555;
 		--color-fg-2: #000;
-		--color-fg: #555;
+		--color-fg: #333;
 		--color-pri-1: #707;
 		--color-pri-2: #f0f;
 		--color-pri: #a0a;
