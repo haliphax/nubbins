@@ -12,6 +12,7 @@ button:disabled {
 	border-color: var(--color-bg-2);
 	color: var(--color-bg);
 	cursor: not-allowed;
+	text-decoration: line-through;
 }
 
 :is(button:not(:disabled), .button):hover {
