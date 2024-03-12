@@ -18,7 +18,7 @@
 		"semantic-release-gitmoji": "^1.6.4"
 	},
 	"engines": {
-		"node": "^18"
+		"node": "^20"
 	},
 	"homepage": "https://haliphax.github.io/nubbins",
 	"keywords": [
