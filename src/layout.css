@@ -9,10 +9,22 @@
 	display: block;
 }
 
+.dg {
+	display: grid;
+}
+
 .di {
 	display: inline;
 }
 
 .dib {
 	display: inline-block;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
 }
