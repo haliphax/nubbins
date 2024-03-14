@@ -1,0 +1,27 @@
+.ab {
+	text-align: bottom;
+	vertical-align: bottom;
+}
+
+.abl {
+	text-align: baseline;
+	vertical-align: baseline;
+}
+
+.am {
+	text-align: middle;
+	vertical-align: middle;
+}
+
+.at {
+	text-align: top;
+	vertical-align: top;
+}
+
+.atb {
+	vertical-align: text-bottom;
+}
+
+.att {
+	vertical-align: text-top;
+}
