@@ -7,18 +7,20 @@
 	"devDependencies": {
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/github": "^9.0.4",
+		"@semantic-release/github": "^11.0.1",
 		"@semantic-release/npm": "^10.0.5",
 		"clean-css-cli": "^5.6.2",
 		"commitlint": "^18.6.1",
 		"commitlint-config-gitmoji": "^2.3.1",
 		"gitmoji-cli": "^8.4.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.4.3",
 		"prettier": "^3.0.2",
-		"semantic-release": "^21.1.1",
-		"semantic-release-gitmoji": "^1.6.4"
+		"semantic-release": "^24.2.3",
+		"semantic-release-gitmoji": "^1.6.8"
 	},
 	"engines": {
-		"node": "^20"
+		"node": ">=20"
 	},
 	"homepage": "https://haliphax.github.io/nubbins",
 	"keywords": [
@@ -28,13 +30,20 @@
 		"micro-framework"
 	],
 	"license": "MIT",
+	"lint-staged": {
+		"*": [
+			"prettier -luw"
+		]
+	},
 	"name": "@haliphax/nubbins",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/haliphax/nubbins"
 	},
 	"scripts": {
-		"build": "node src/build.mjs && npx cleancss -o dist/nubbins.min.css src/index.css"
+		"build": "node src/build.mjs && npx cleancss -o dist/nubbins.min.css src/index.css",
+		"prepare": "husky"
 	},
+	"type": "module",
 	"version": "0.0.9"
 }

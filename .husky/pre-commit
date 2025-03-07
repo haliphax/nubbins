@@ -1,0 +1,2 @@
+node .husky/scripts/no-commit-to-main.js
+npx lint-staged
