@@ -1,8 +1,18 @@
+dl,
 ol,
 ul {
 	padding-left: var(--space-xxl);
 }
 
-li:not(:last-child) {
+:is(dd, li):not(:last-child) {
 	margin-bottom: var(--space-xxs);
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	font-size: 0.8em;
+	padding-left: var(--space-m);
 }
