@@ -1,5 +1,4 @@
-import { marginGenerator } from "./margin.mjs";
-import { paddingGenerator } from "./padding.mjs";
+import { spacingGenerator } from "./spacing.mjs";
 
-marginGenerator();
-paddingGenerator();
+spacingGenerator("margin");
+spacingGenerator("padding");
