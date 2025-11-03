@@ -14,5 +14,7 @@ export const marginGenerator = () => {
 		output.push(`.my-${size} { margin-block: var(--space-${size}); }\n`);
 	}
 
-	writeFileSync("src/margin.css", output.join(""), { encoding: "utf-8" });
+	writeFileSync("src/styles/margin.css", output.join(""), {
+		encoding: "utf-8",
+	});
 };

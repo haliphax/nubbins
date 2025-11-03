@@ -42,7 +42,7 @@
 		"url": "https://github.com/haliphax/nubbins"
 	},
 	"scripts": {
-		"build": "node src/build.mjs && npx cleancss -o dist/nubbins.min.css src/index.css",
+		"build": "node src/build.mjs && npx cleancss -o dist/nubbins.min.css src/styles/index.css",
 		"prepare": "husky"
 	},
 	"type": "module",

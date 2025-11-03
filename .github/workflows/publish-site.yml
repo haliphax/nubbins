@@ -25,7 +25,7 @@ jobs:
           npm run build
           mkdir html
           cp index.html dist/nubbins.min.css html/
-          sed -i -e "s/src\/index/nubbins.min/" html/index.html
+          sed -i -e "s/src\/styles\/index/nubbins.min/" html/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -14,5 +14,7 @@ export const paddingGenerator = () => {
 		output.push(`.py-${size} { padding-block: var(--space-${size}); }\n`);
 	}
 
-	writeFileSync("src/padding.css", output.join(""), { encoding: "utf-8" });
+	writeFileSync("src/styles/padding.css", output.join(""), {
+		encoding: "utf-8",
+	});
 };

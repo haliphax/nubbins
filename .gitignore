@@ -1,6 +1,6 @@
 /dist/
 /docs/
-/src/margin.css
-/src/padding.css
+/src/styles/margin.css
+/src/styles/padding.css
 node_modules/
 
