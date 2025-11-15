@@ -23,17 +23,6 @@ jobs:
       - name: Build minified CSS
         run: npm run build
 
-  commitlint:
-    if: contains(github.event_name, 'pull_request')
-    runs-on: ubuntu-latest
-    steps:
-      - uses: haliphax/nubbins/.github@main
-
-      - name: Lint pull request title
-        env:
-          PR_TITLE: ${{ github.event.pull_request.title }}
-        run: echo "$PR_TITLE" | npx commitlint
-
   prettier:
     runs-on: ubuntu-latest
     steps:
