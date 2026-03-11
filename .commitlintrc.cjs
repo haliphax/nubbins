@@ -1,4 +1,4 @@
-// npx gitmoji -l
+// Converted from haliphax/gwskillbar/.commitlintrc.cts
 const gitmojis = [
 	"⏪️",
 	"♻️",
@@ -67,7 +67,7 @@ const gitmojis = [
 	"🥚",
 	"🦺",
 	"🧐",
-	"🧑‍💻",
+	"🧑💻",
 	"🧪",
 	"🧱",
 	"🧵",
