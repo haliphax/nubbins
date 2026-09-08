@@ -21,7 +21,7 @@
 		"semantic-release-gitmoji": "^1.6.9"
 	},
 	"engines": {
-		"node": ">=20"
+		"node": ">=24"
 	},
 	"homepage": "https://haliphax.github.io/nubbins",
 	"keywords": [
